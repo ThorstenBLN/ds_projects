@@ -1,6 +1,8 @@
 ## Titanic Survivor Prediction  
-#### content: This project is about the Kaggle Titanic survivor competition  
-#### Target: to predict passenger survival with machine learning models using passenger features like Age, Sex, Class or Fare.  
+#### content: 
+This project is about the Kaggle Titanic survivor competition  
+#### Target: 
+to predict passenger survival with machine learning models using passenger features like Age, Sex, Class or Fare.  
 #### files:  
 1. 2_6_Feature_engineering.ipnyb:
 - I explore the data and perform feature 2_6_Feature_engineering.
