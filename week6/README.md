@@ -1,7 +1,7 @@
-### datapipeline with docker containers
+### datapipeline with docker containers (using a yml-file)
 
 #### target:
-download tweets from a chosen user. Perform a sentiment analysis on them and upload the results to slack with a slack bot
+download tweets from a chosen user. Perform a sentiment analysis on them and upload the results to slack with a slack bot. 
 
 #### Following 5 containers will be used and tasks will be performed:
 - mongo_cont: container which contains a mongodb database
