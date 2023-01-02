@@ -1,10 +1,10 @@
-### Object detecting convolutional neural network
+### Object detector CNN
 
 #### target:
 Build an Convolutional Neural Network that recognizes objects that I hold into the webcam
 
 #### data: 
-images of objects of 3 classes (bottle, pens, sunglasses) which I took with the webcam of my notebook
+images of objects of 3 classes (bottle, pens, sunglasses) which I took with the webcam of my notebook and augmented with tensorflow.
 
 #### files:
 - CNN_AUG.ipynb: 
