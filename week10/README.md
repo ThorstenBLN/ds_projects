@@ -1,4 +1,4 @@
-### recommender systems for movies
+### recommender system for movies
 
 #### target:
 create a simple Flask webpage containing a movie recommender system using non negative matrix factorization.  
