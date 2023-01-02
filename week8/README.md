@@ -17,13 +17,13 @@ Every minute new customers enter the supermarket. These new customers will be in
     - transition to next state: randomly assigned by transition matrix, containing distributions of movements from 
     current state to next state from original data. (In the original data only moving customers are logged. This
     leads to the situation that a customer staying for 10 minutes in one state has only 1 timestamp at 
-    the state (when entering). To prevent unrealistic "each minute moves" in the transition matrix, these missing timesteps
+    that state (when entering). To prevent unrealistic "each minute moves" in the transition matrix, these missing timesteps
     for customers staying in a state have been filled.
 
 - supermarket.py: 
     - contains the supermarket class
     - the supermarket class handles the simulation time, creates new entering customers each minute, 
-    propagates active customers to the next state, keeps track of all active customers and removes exiting customers
+    propagates active customers to their next state, keeps track of all active customers and removes exiting customers
     - new customer creation: by poisson distibution (1 for each hour) depending on the mean entering customers 
     per minute in the certain hour over the whole week of original data
 
