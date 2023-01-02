@@ -1,7 +1,7 @@
 ### Time Series Analysis
 
 #### data: 
-daily temperature data from Tempelhofer Feld, Berlin, Germany in pandas (downloaded from www.ecad.eu)
+daily temperature data from Tempelhofer Feld, Berlin, Germany (downloaded from www.ecad.eu)
 
 ### files:
 - 7.1_project.ipynb
