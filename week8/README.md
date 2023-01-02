@@ -1,9 +1,9 @@
 ### Markov simulation of customer behaviour in a supermarket
 
 #### original data: 
-5 files: each one contains 1 weekday of observation data of customers in a supermarket  
-columns: timestamp, customer number, state of customer  
-customers can be in 5 states ('checkout', 'dairy', 'drinks', 'fruit', 'spices')  
+5 files - each one contains 1 weekday of observation data of customers in a supermarket  
+columns - timestamp, customer number, state of customer  
+customers - can be in 5 states ('checkout', 'dairy', 'drinks', 'fruit', 'spices')  
 
 #### files:
 - customer.py: 
