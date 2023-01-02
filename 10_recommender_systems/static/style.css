@@ -1,0 +1,53 @@
+body{
+    background-image: url("logo.jpg");
+    /* background-repeat:none; */
+    background-size: 1920px 1080px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color:darkcyan;
+    font-size: 50px;
+}
+
+label{
+    position: absolute;
+    left: 25%;
+    color:cornsilk
+}
+
+.second_title{
+    color:chartreuse;
+    font-size: 30px;
+}
+
+.form-rating{
+    position: absolute;
+    left: 55%;
+    max-width: 100px;
+    max-height: 20px;
+    background-color:ivory;
+}
+
+.form-rating:hover{
+    background-color:azure;
+    box-shadow: 3px 3px 6px;
+}
+
+.button{
+    position: absolute;
+    left: 60%;
+}
+
+.third_title{
+    color:cyan;
+    font-size: 20px;
+}
+
+.list_item{
+    color:beige;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}

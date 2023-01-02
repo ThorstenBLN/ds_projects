@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styling from picnic loads the styling from the web -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <!-- Stylinbg frim CSS sheet -->
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Movie results</h1>
+    <p class="second_title">Best movies to watch right now</p>
+     <ul style = "list-style-type: none">
+        {% for key, value in result.items() %}
+        <li class="list_item">{{key}}</li>
+        {% endfor %}
+    </ul>
+    <label class="third_title">Get recommendation</label> <a href="/request">here</a>
+</body>
+</html>

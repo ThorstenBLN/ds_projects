@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styling from picnic loads the styling from the web -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <!-- Stylinbg frim CSS sheet -->
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p> 
+    <h1>NMF movie recommender</h1>
+    <p class="second_title">Welcome to the 90s</p><br>
+    <label class="third_title">Please enter ratings for the following movies:</label><br>
+    
+    <form action="/nmf_results">
+        <label>Brazil (1985)</label> <input class="form-rating" type="text" name="Brazil (1985)" placeholder="0-5"><br>
+        <label>The Revenant (2015)</label> <input class="form-rating" type="text" name="The Revenant (2015)" placeholder="0-5"><br>
+        <label>Godzilla (1998)</label> <input class="form-rating" type="text" name="Godzilla (1998)" placeholder="0-5"><br>
+        <label>Rogue One: A Star Wars Story (2016)</label> <input class="form-rating" type="text" name="Rogue One: A Star Wars Story (2016)" placeholder="0-5"><br>
+        <label>Toy Story (1995)</label> <input class="form-rating" type="text" name="Toy Story (1995)" placeholder="0-5"><br>
+        <input class="button" type="submit" value="Submit">
+    </form>
+</body>
+</html>

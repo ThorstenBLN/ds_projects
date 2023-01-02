@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  tweets:
+    container_name: tweepy
+    build: tweet_cont_mdb/
+    depends_on:
+     - mongodb
+  mongodb: 
+    container_name: mongo_cont
+    image: mongo
+    ports:
+      - 27017:27017
+  sa: 
+    container_name: sa_tweets
+    build: sa_cont/
+    depends_on:
+     - tweets
+     - postgres
+  postgres:
+    container_name: postgres_cont
+    image: postgres:latest
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=tweets_db
+      - POSTGRES_HOST=postgres_cont
+  bot: 
+    container_name: slackbot_cont
+    build: slackbot_cont/
+    depends_on:
+     - sa
+     - tweets
+     - postgres
+     - mongodb
+  
