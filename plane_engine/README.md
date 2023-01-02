@@ -46,7 +46,7 @@ pandas, numpy, matplotlib, seaborn, sklearn, tensorflow keras, streamlit, plotly
     - the models will raise an alarm (visially and acustically) if the models predict the enclosing of the engine failure
     - in order to have a smoother simulation process, I created and saved the prediction data for all engines in advance. In the simulation I used these x-test and y-predict numpy arrays.
 - text.py:
-    - this script creates the audio files for the acustical warnings with gtts.
+    - this script creates the audio files for the acustical alarms with gtts.
     
 #### results:
 - dataset 1:
