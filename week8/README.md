@@ -5,6 +5,9 @@
 columns - timestamp, customer number, state of customer  
 customers - can be in 5 states ('checkout', 'dairy', 'drinks', 'fruit', 'spices')  
 
+#### simulation:
+Every minute new customers enter the supermarket. These new customers will be individually assigined to an initial state. At the same time all existing active customers propagate to the next state or stay at their current state. Once a customer has reached the checkout state he leaves the supermarket and becomes inactive. For info regarding the used distribtions see files.
+
 #### files:
 - customer.py: 
     - contains the customer class
